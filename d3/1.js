@@ -31,14 +31,14 @@ for (let i = 0; i < input.length; i++) {
     if (input[j] !== ")") {
       continue;
     } else {
-      nums.push([number, number2])
+      nums.push([number, number2]);
     }
   }
 }
 
 let sum = 0;
 
-for(const pair of nums){
+for (const pair of nums) {
   sum += parseInt(pair[0]) * parseInt(pair[1]);
 }
 

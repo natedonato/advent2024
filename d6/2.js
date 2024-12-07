@@ -82,7 +82,7 @@ function doTraverse(start, currentDir, extraRock) {
 
       // if candidate for a rock, start a test
       if (!extraRock && !outerVisited.has(`${nextX},${nextY}`)) {
-        console.log("Start inner loop");
+        // console.log("Start inner loop");
         let newStart = [...guy];
         let dir = currentDir;
         let nX = nextX;

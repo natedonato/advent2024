@@ -7,7 +7,7 @@ for (let originalLine of input) {
   let valid = false;
 
   // test original line
-  if(testLine(originalLine)){
+  if (testLine(originalLine)) {
     count += 1;
     valid = true;
   }

@@ -6,15 +6,15 @@ const NUMS = "1234567890";
 const nums = [];
 
 const DO = "do()";
-const DONT = "don't()"
+const DONT = "don't()";
 let enabled = true;
 
 for (let i = 0; i < input.length; i++) {
-  if(input.slice(i, i+ DO.length) === DO){
+  if (input.slice(i, i + DO.length) === DO) {
     enabled = true;
   }
 
-  if(input.slice(i, i+ DONT.length) === DONT){
+  if (input.slice(i, i + DONT.length) === DONT) {
     enabled = false;
   }
 

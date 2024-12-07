@@ -12,13 +12,13 @@ for (const line of input) {
 
 const count = {};
 
-for(const item of r){
+for (const item of r) {
   count[item] = (count[item] ?? 0) + 1;
 }
 
 let score = 0;
 
-for(const item of l){
+for (const item of l) {
   score += item * (count[item] ?? 0);
 }
 
